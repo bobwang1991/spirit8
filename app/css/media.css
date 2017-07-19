@@ -1,0 +1,23 @@
+/*媒体查询 start*/
+/*ipad*/
+@media (max-width: 768px) {
+    .content{
+        padding: 40% 0 0;
+    }
+}
+/*moblie*/
+@media (max-width: 603px) {
+    .section-title h2{
+        line-height: 30px;
+    }
+    #tf-menu.navbar-default {
+        background-color: rgba(0, 0, 0, .8);
+    }
+    #tf-works ul.pull-right,#tf-works h4.pull-left {
+        margin-top: 10px;
+        text-align: center;
+        float: none!important;
+        display: block;
+    }
+}
+/*媒体查询 end*/
